@@ -132,10 +132,12 @@ const ProfilePage = () => {
                 <span className="info-label">Email:</span>
                 <span className="info-value">{user.email}</span>
               </div>
+              {/* Временно скрыто из-за проблемы с форматом даты
               <div className="info-item">
                 <span className="info-label">Тіркелген күні:</span>
                 <span className="info-value">{formatDate(user.created_at)}</span>
               </div>
+              */}
             </div>
             
             <button 
